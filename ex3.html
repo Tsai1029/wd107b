@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表單</title>
+</head>
+<body>
+<body style="background-color:#CC9999;">
+<h1>顧客旅遊回饋單</h1>
+<p>您的基本資料</p>
+<form>
+姓: <input type="text" name="姓"><br>
+名字: <input type="text" name="名字">
+<p>您的出生年份</p>
+<form action="demo-form.php" method="get">
+<input list="browsers" name="browser">
+<datalist id="browsers">
+  <option value="1960後">
+  <option value="1970後">
+  <option value="1980後">
+  <option value="1990後">
+  <option value="2000後">
+</datalist>
+<input type="submit">
+</form>
+<p>您的出生月份</p>
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<p>您本次參加的旅遊活動是</p>
+<form>
+<input type="radio" name="country"value=釜山五日遊>釜山五日遊<br>
+<input type="radio" name="country"value=大阪東京五日遊>大阪東京五日遊<br>
+<input type="radio" name="country"value=北歐五國十二日遊>北歐五國十二日遊<br>
+<input type="radio" name="country"value=南美十日遊>南美十日遊<br>
+</form>
+<p>您對本次的旅遊評價</p>
+<form>
+<input type="radio" name="sex" value=非常滿意>非常滿意<br>
+<input type="radio" name="sex" value=滿意>滿意<br>
+<input type="radio" name="sex" value=不滿意>不滿意<br>
+<input type="radio" name="sex" value=非常不滿意>非常不滿意<br>
+</form>
+</form>
+<p>您還會想到哪個國家旅遊</p>
+<form>
+<input type="checkbox" name="country" value="印度">印度<br>
+<input type="checkbox" name="country" value="以色列">以色列<br>
+<input type="checkbox" name="country" value="泰國">泰國<br>
+<input type="checkbox" name="country" value="西班牙">西班牙<br>
+</form>
+<p>本公司此次推出新行程－中東十日遊 請問您是否想參加</p>
+<input type="radio" name="country"value=是>是<br>
+<input type="radio" name="country"value=否>否<br>
+
+<img src="https://www.natgeomedia.com/wp-content/uploads/2016/06/Petra-New-discovery-1.adapt_.768.1.jpg" width="220" height="200">
+<p>請您留下信箱即可隨時接受新的旅遊行程</p>
+<form action="demo-form.php" novalidate>
+E-mail: <input type="email" name="user_email">
+<input type="submit">
+</form>
+<p>若有何問題請到本公司的官方信箱查詢</p>
+<a href="https://mail.google.com/mail/u/0/#inbox" >想泓旅行社官方信箱</a>
+<h2>感謝您的回答 期待您繼續參加我們的旅遊行程！</h2>
+</body>
+</html>
