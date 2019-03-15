@@ -1,0 +1,117 @@
+button {
+    background-color:#000000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  body,table {
+    background-color:#C0C0C0;
+    color: #000000;
+    padding: 22px;
+    font-size: 22px;
+    margin: 12px;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+  }
+  h1,h2{
+    background-color:#8B4513;
+    color: #FFE4C4;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid saddlebrown;
+    border-radius: 3px;
+  }
+  p{
+    color: #D2B48C
+    margin: 10px;
+    border: 1px solid saddlebrown;
+  }
+  tr{
+    background-color:#FFE4B5;
+    color: #CD5C5C;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid sandybrown;
+    border-radius: 3px;
+  }
+  td{
+    background-color:#FFA07A;
+    color: #483D8B;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid lightsalmon	;
+    border-radius: 3px;
+  }
+  input{
+    background-color:#8B0000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid maroon	;
+    border-radius: 3px;
+  }button {
+    background-color:#000000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  body,table {
+    background-color:#C0C0C0;
+    color: #000000;
+    padding: 22px;
+    font-size: 22px;
+    margin: 12px;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+  }
+  h1,h2{
+    background-color:#8B4513;
+    color: #FFE4C4;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid saddlebrown;
+    border-radius: 3px;
+  }
+  p{
+    color: #D2B48C
+    margin: 10px;
+    border: 1px solid saddlebrown;
+  }
+  tr{
+    background-color:#FFE4B5;
+    color: #CD5C5C;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid sandybrown;
+    border-radius: 3px;
+  }
+  td{
+    background-color:#FFA07A;
+    color: #483D8B;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid lightsalmon	;
+    border-radius: 3px;
+  }
+  input{
+    background-color:#8B0000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: 3px solid maroon	;
+    border-radius: 3px;
+  }
