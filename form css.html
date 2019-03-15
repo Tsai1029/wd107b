@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="my.css"/>
+<title>表單</title>
+</head>
+<body>
+
+<h1 class="center">顧客旅遊回饋單</h1>
+<p >您的基本資料</p>
+<form>
+姓: <input  type="text" name="姓" ><br>
+名字: <input type="text" name="名字">
+<p >您的出生年份</p>
+<form action="demo-form.php" method="get">
+<input list="browsers" name="browser">
+<datalist id="browsers">
+  <option value="1960後">
+  <option value="1970後">
+  <option value="1980後">
+  <option value="1990後">
+  <option value="2000後">
+</datalist>
+<input type="submit">
+</form>
+</form>
+<p>您還會想到哪個國家旅遊</p>
+<form>
+<input type="checkbox" name="country" value="印度">印度<br>
+<input type="checkbox" name="country" value="以色列">以色列<br>
+<input type="checkbox" name="country" value="泰國">泰國<br>
+<input type="checkbox" name="country" value="西班牙">西班牙<br>
+</form>
+
+<h2>感謝您的回答 期待您繼續參加我們的旅遊行程！</h2>
+</body>
+
+</html>
