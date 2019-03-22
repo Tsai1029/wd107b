@@ -1,7 +1,7 @@
 body {
-    background-color:#FFFF33;
-    color:	#668800 ;
-    
+    background-color:#FFBB66;
+    color: solid	 #1C382B ;
+
     font-size:20px;
 
   }
@@ -12,8 +12,8 @@ h1 {
     font-size:40px;
 }
 h2,h3,h4,h5,h6 {
-    color: #4E4B2C;
-    text-align:right;
+    color: #1C382B;
+
    
   
 }
@@ -22,12 +22,15 @@ p {
     
 
 }
-caption {
-    color: #4E4B2C
 
-}
-tr,td,th {
-    color: solid black 
-    border: 10px mediumseagreen;
+td,th {
+    color: solid black ;
+    border: 20px darkgreen;
     padding: 20px;
+   
+    margin: 150px;
+}
+caption{
+    color: #1C382B
+    margin: 25px;
 }
